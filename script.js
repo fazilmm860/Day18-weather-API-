@@ -38,7 +38,7 @@ function createCountryCard(country) {
     weatherBtn.addEventListener('click', () => {
         const lat = country.latlng[0];
         const lng = country.latlng[1];
-        fetch(`https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${elem.value}&APPID=f6d5d552eecbaa6920d83da0804e5a44`)
             .then(response => response.json())
             .then(data => {
                 console.log(data);
