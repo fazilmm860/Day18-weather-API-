@@ -1,0 +1,25 @@
+.mr{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    border-radius: 5px;
+    cursor:zoom-in;
+}
+.mr:hover{
+    transform: scale(2);
+}
+.mb-4{
+    display: inline-block;
+    margin: 55px;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    background-image: linear-gradient(to right, #ffffff, #1c0340);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+    
+   
+}
